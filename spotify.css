@@ -15,7 +15,7 @@
 /* side header */
 
 .sideheader{
-    width: 300px;
+    width: 500px;
     height: 100vh;
     position: relative;
     margin-left: 5px;
@@ -33,7 +33,7 @@
 
 .logos{
     color: white;
-    font-size: 15px;
+    font-size: 18px;
     padding-left: 20px;
     /* padding-top: 10px; */
     padding-bottom: 20px;
@@ -47,7 +47,7 @@
 /* second part of side header */
 .secondpart{
     background-color: rgba(35, 34, 34, 0.685);
-    height: 220px;
+    height: 250px;
     border-radius: 10px;
     margin-top: 5px;
     padding-top: 10px;
@@ -73,7 +73,7 @@
     align-items: center;
 }
 .libraryloogo h1{
-    font-size: 15px;
+    font-size: 18px;
     color: white;
 
 }
@@ -87,20 +87,20 @@
     padding-left: 20px;
 }
 .playlistsection h1{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 700;
     color: white;
     margin-top: 5px;
 }
 .playlistsection h6{
-    font-size: 10px;
+    font-size: 13px;
     color: white;
 }
 .Create-playlist{
     margin-top: 20px;
     background-color: white;
     color: black;
-    font-size: 10px;
+    font-size: 13px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -122,8 +122,8 @@
 
     padding-left: 20px;
     padding-top: 20px;
-    width: 300px;
-    height: 250px;
+    width: 330px;
+    height: 100vh;
     background-color: rgba(41, 41, 41, 0.572);
 
 }
@@ -139,7 +139,7 @@
 }
 .footer h6{
 
-    font-size: 10px;
+    font-size: 13px;
     color: rgb(81, 81, 81); 
     padding-right: 20px;
     padding-top: 10px;
@@ -148,7 +148,7 @@
     margin-top: 20px;
     color: rgb(255, 255, 255);
     border: solid white;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -164,7 +164,7 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-    width: 900px;
+    width:100%;
  
 }
 
@@ -184,7 +184,7 @@
 .track{
     color: rgb(247, 241, 241);
     background-color: rgb(13, 13, 13);
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -200,7 +200,7 @@
     top: 5px;
     color: rgb(0, 0, 0);
     background-color: white;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -215,7 +215,7 @@
     top: 5px;
     color: rgb(247, 241, 241);
     background-color: rgb(11, 11, 11);
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 700;
     text-decoration: none;
     display: inline-block;
@@ -229,6 +229,7 @@
     width: 100%;
     height: 200px;
     margin-left: 5px;
+    margin-bottom: 50px;
 
 }
 
@@ -238,6 +239,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  
 }
 .content{
 padding-left: 1px; 
@@ -245,7 +247,8 @@ height: 100vh;
 overflow-y: auto;
 overflow-X: hidden;
 white-space: nowrap;
- 
+
+
   
 }
 
@@ -273,7 +276,7 @@ white-space: nowrap;
     font-size: 10px;
     font-weight: 600;
     margin-top: 60px;
-    margin-right: 20px;
+    margin-right: 30px;
 }
 .contents{
     display: flex;
@@ -281,8 +284,8 @@ white-space: nowrap;
 
 }
 .tiles{
-    width: 120px;
-    height: 170px;
+    width: 150px;
+    height: 200px;
     margin-left: 10px;
     border-radius: 5px;
     position: relative;
@@ -330,21 +333,21 @@ background-color: rgb(66, 245, 90);
 
 .squareimg{
     margin-top: 2px;
-    margin-left: 5px;
-    width: 105px;
-    height: 100px;
+    margin-left: 2px;
+    width: 135px;
+    height: 130px;
     border-radius: 10px;
 }
 .image{
     margin-top: 2px;
     margin-left: 2px;
-    width: 105px;
-    height: 100px;
+    width: 135px;
+    height: 130px;
     border-radius: 50%;
 
 }
 .tiles h1{
-    font-size: 13px;
+    font-size: 18px;
     color: white;
     overflow: hidden;
     word-wrap: break-word;
@@ -354,7 +357,7 @@ background-color: rgb(66, 245, 90);
 
 }
 .tiles h6{
-    font-size: 8px;
+    font-size: 13px;
     color: rgb(162, 161, 161);
     overflow: hidden;
     word-wrap: break-word;
@@ -386,7 +389,7 @@ background-color: rgb(66, 245, 90);
 
 }
 .child h1{
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     color: white;
     overflow: hidden;
@@ -398,7 +401,7 @@ background-color: rgb(66, 245, 90);
 .ftr{
     text-decoration: none;
     line-height: 25px;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
     color: rgb(162, 161, 161);
     overflow: hidden;
